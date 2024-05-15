@@ -9,7 +9,10 @@
 
 .booking-container {
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto; 
+}
+.booking-container h1 {
+    color: white; /* Set the color to white */
 }
 
 .column {
@@ -44,8 +47,14 @@
 
 /* styles.css */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../bgi.jpg"); 
+    background-size: cover; 
+    background-position: center top -50px; 
+    margin: 0; 
+    padding: 0; 
 }
 
 header {
@@ -108,6 +117,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center; /* Aligns the dot and text vertically */
     margin-bottom: 30px; /* Space between each legend item */
+    color: white; /* Set text color to white */
 }
 
 .dot {
@@ -118,10 +128,10 @@ nav ul li a:hover {
 }
 
 .available { background-color: #4CAF50; }
-.reserved { background-color: #FF9800; }
-.unavailable { background-color: grey; }
+.reserved { background-color:  lightsteelblue; }
+.unavailable { background-color: #FF9800;}
 .sold-out { background-color: red; }
-.my-seat { background-color: lightblue; }
+.my-seat { background-color: orchid; }
 
 .TextField {
     position: fixed;
@@ -161,12 +171,14 @@ label[for="date"] {
     position: fixed; /* Change to fixed */
     top: 460px; /* Adjust top position as needed */
     left: 1030px;
+    color: white;
 }
 
 label[for="time"] {
     position: fixed; /* Change to fixed */
     top: 517px; /* Adjust top position as needed */
     left: 1031px; /* Move the labels up by 50 pixels */
+    color: white;
 }
 
 /* Additional styling for the button */
